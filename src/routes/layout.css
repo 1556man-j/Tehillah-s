@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@font-face {
+  font-family: "AmsiPro-Bold";
+  src: url("/fonts/AmsiPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Amsi-Pro-SemiBold";
+  src: url("/fonts/Amsi-Pro-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AmsiProCond-Ultra";
+  src: url("/fonts/AmsiProCond-Ultra.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+   margin: 0;
+  min-height: 100vh;
+  font-family: "AmsiPro-Bold", sans-serif;
+  color: #5C4033;
+  background-color: #E8DAC5;
+}
+.page-container{
+   max-width: 2000px;
+  margin-inline: auto;
+  background-color: #F3E7D4;
+  min-height: 100vh;
+}
+.pattern{
+  background-image: url("/patterns/Weave_BG-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.AmsiProCond-Ultra{
+  font-family: "AmsiProCond-Ultra", sans-serif;
+}
+.AmsiPro-SemiBold{
+  font-family: "Amsi-Pro-SemiBold", sans-serif;
+}
