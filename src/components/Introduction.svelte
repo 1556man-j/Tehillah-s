@@ -29,10 +29,10 @@
 			class="mt-5 lg:-mt-68 w-[129.19px] lg:right-[25%] 2xl:w-[150px] ml-auto relative"
 		/>
 	</section>
-	<section class="relative lg:-top-80 overflow-x-hidden">
+	<section class="relative lg:-top-80 overflow-x-hidden mx-auto">
 		<!-- ===============first box========= -->
 		<div
-			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-20 p-5 max-w-[393px] mx-auto mt-20 pb-12 lg:-right-90 lg:top-69 2xl:-right-99 lg:rotate-6 lg:max-w-[473px]"
+			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-20 p-5 max-w-[90%] sm:max-w-[393px] sm:mx-auto mt-20 pb-12 lg:-right-90 lg:top-69 2xl:-right-99 lg:rotate-6 lg:max-w-[473px] mx-auto"
 		>
 			<div
 				class="w-[78.1px] h-[78.1px] absolute z-20 top-0 bg-white p-2 rounded-full -translate-y-1/2 left-1/2 transform -translate-x-1/2"
@@ -117,7 +117,7 @@
 		</div>
 		<!-- =============second box=========== -->
 		<div
-			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-10 py-5 px-10 lg:pr-10 2xl:pr-15 max-w-[393px] h-[271px] justify-center items-center 2xl:w-[473px] mx-auto -mt-15 pb-5 lg:-left-80 lg:bottom-29 2xl:bottom-50 lg:-rotate-4 lg:max-w-[473px]"
+			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-10 py-5 px-10 lg:pr-10 2xl:pr-15 max-w-[90%] sm:max-w-[393px] h-[271px] justify-center items-center 2xl:w-[473px] mx-auto -mt-15 pb-5 lg:-left-80 lg:bottom-29 2xl:bottom-50 lg:-rotate-4 lg:max-w-[473px]"
 		>
 			<div
 				class="w-[78.1px] h-[78.1px] absolute z-20 top-0 bg-white p-2 rounded-full -translate-y-1/2 left-1/2 transform -translate-x-1/2"
@@ -137,7 +137,7 @@
 
 		<!-- ===============third box======= -->
 		<div
-			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-10 py-5 px-15 max-w-[393px] mx-auto mt-20 pb-12 lg:relative lg:-right-85 lg:bottom-62 2xl:bottom-85 lg:-rotate-4 lg:max-w-[473px] h-[271px] items-center justify-center"
+			class="rounded-xl bg-[#CE9C7D] relative flex flex-col gap-5 z-10 py-5 px-15 max-w-[90%] sm:max-w-[393px] mx-auto mt-20 pb-12 lg:relative lg:-right-85 lg:bottom-62 2xl:bottom-85 lg:-rotate-4 lg:max-w-[473px] h-[271px] items-center justify-center"
 		>
 			<div
 				class="w-[78.1px] h-[78.1px] absolute z-20 top-0 bg-white p-2 rounded-full -translate-y-1/2 left-1/2 transform -translate-x-1/2"

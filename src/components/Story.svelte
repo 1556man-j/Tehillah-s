@@ -1,11 +1,13 @@
 <script>
 	import StoryImage1 from '$lib/assets/A_woman_peeling_cassava 1.png';
-	import StoryImage2 from '$lib/assets/steptodown.com227463 1.png';
+	import StoryImage2 from '$lib/assets/mom.jpg';
 	import StoryImage3 from '$lib/assets/steptodown.com227463 1 (1).png';
+	import Combo from './Combo.svelte';
 	import Introduction from './Introduction.svelte';
+	import Reviews from './Reviews.svelte';
 </script>
 
-<main class="lg:mt-40 xl:mt-30 mt-50">
+<main id="story" class="lg:mt-40 xl:mt-30 mt-50">
 	<!-- ===================story h2 text =================-->
 	<section>
 		<div>
@@ -39,12 +41,12 @@
 						<img src={StoryImage1} alt="Story-img1" class="w-full h-full mx-auto rounded-xl" />
 					</div>
 					<div
-						class="md:w-[311px] md:h-[495px] xl:w-[311px] xl:h-[495px] 2xl:w-[400px] 2xl:h-[640px] lg:w-[254.04px] lg:h-[404.34px] w-[254.04px] h-[404.34px] border-13 border-white rounded-xl overflow-hidden rotate-[7.1deg] absolute lg:left-[253.61px] xl:left-[353.61px] 2xl:left-[420px] left-[15%] md:left-[30%] lg:top-1/2 bottom-[10%] md:-bottom-[10%] lg:-translate-y-1/2 z-20 object-cover"
+						class="md:w-[311px] md:h-[495px] xl:w-[311px] xl:h-[495px] 2xl:w-[400px] 2xl:h-[640px] lg:w-[254.04px] lg:h-[404.34px] w-[254.04px] h-[404.34px] border-13 border-white rounded-xl overflow-hidden rotate-[7.1deg] absolute lg:left-[253.61px] xl:left-[353.61px] 2xl:left-[420px] left-[15%] md:left-[30%] lg:top-1/2 bottom-[10%] md:-bottom-[10%] lg:-translate-y-1/2 z-20"
 					>
 						<img
 							src={StoryImage2}
 							alt="Story-img1"
-							class="w-full h-full mx-auto rounded-xl object-cover"
+							class="w-full h-full mx-auto object-cover object-bottom-center"
 						/>
 					</div>
 				</div>
@@ -63,4 +65,6 @@
 		</div>
 	</section>
   <Introduction/>
+  <Combo/>
+  <Reviews/>
 </main>
