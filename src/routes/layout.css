@@ -3,54 +3,69 @@
 @plugin '@tailwindcss/typography';
 
 @font-face {
-  font-family: "AmsiPro-Bold";
-  src: url("/fonts/AmsiPro-Bold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'AmsiPro-Bold';
+	src: url('/fonts/AmsiPro-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "Amsi-Pro-SemiBold";
-  src: url("/fonts/Amsi-Pro-SemiBold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'AmsiPro-SemiBold';
+	src: url('/fonts/AmsiPro-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 @font-face {
-  font-family: "AmsiProCond-Ultra";
-  src: url("/fonts/AmsiProCond-Ultra.ttf") format("truetype");
-  font-style: normal;
-  font-display: swap;
+	font-family: 'AmsiProCond-Ultra';
+	src: url('/fonts/AmsiProCond-Ultra.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'AmsiPro-Ultra';
+	src: url('/fonts/AmsiPro-Ultra.ttf') format('truetype');
+	font-style: normal;
+	font-display: swap;
 }
 
-
-html{
-  scroll-behavior: smooth;
+html {
+	scroll-behavior: smooth;
 }
 
-body{
-   margin: 0;
-  min-height: 100vh;
-  font-family: "AmsiPro-Bold", sans-serif;
-  color: #5C4033;
-  background-color: #E8DAC5;
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'AmsiPro-Bold', sans-serif;
+	color: #5c4033;
+	background-color: #e8dac5;
+  overflow-x: hidden;
 }
-.page-container{
-   max-width: 2000px;
-  margin-inline: auto;
-  background-color: #FBF5EA;
-  min-height: 100vh;
+.page-container {
+	max-width: 2000px;
+	margin-inline: auto;
+	background-color: #fbf5ea;
+	min-height: 100vh;
 }
-.pattern{
-  background-image: url("/patterns/Weave_BG-removebg-preview.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.pattern {
+	background-image: url('/patterns/Weave_BG-removebg-preview.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.AmsiProCond-Ultra{
-  font-family: "AmsiProCond-Ultra", sans-serif;
+.AmsiProCond-Ultra {
+	font-family: 'AmsiProCond-Ultra', sans-serif;
 }
-.AmsiPro-SemiBold{
-  font-family: "Amsi-Pro-SemiBold", sans-serif;
+.AmsiPro-SemiBold {
+	font-family: 'Amsi-Pro-SemiBold', sans-serif;
+}
+.AmsiPro-Ultra {
+	font-family: 'AmsiPro-Ultra', sans-serif;
+}
+@media (min-width: 420px) {
+  .circle{
+    width: 380px;
+    height: 380px;
+  }
 }

@@ -5,6 +5,9 @@
 	import Hero from '../components/Hero.svelte';
 	import Divider from '../components/Divider.svelte';
 	import Story from '../components/Story.svelte';
+	import Craft from '../components/Craft.svelte';
+	import Shop from '../components/Shop.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -22,4 +25,7 @@
 		<Divider />
 	</section>
 	<Story/>
+	<Craft/>
+	<Shop/>
+	<Footer/>
 </main>
